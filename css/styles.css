@@ -1,0 +1,116 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+  color: #424242;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 35px;
+  margin-bottom: 5px;
+  color: #e0353e;
+}
+
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+/*
+ *
+ * Header
+ *
+ */
+
+.header {
+  border-bottom: 2px solid #e0353e;
+}
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: "FontAwesome", sans-serif;
+}
+
+.logo {
+  font-size: 60px;
+  text-shadow: 3px 3px 3px #aaa;
+  color: #e0353e;
+  margin: auto;
+}
+
+.header-text {
+  margin: auto;
+}
+
+/*
+ *
+ * Content
+ *
+ */
+
+.main-image {
+  margin: 20px auto;
+}
+
+.muted-text {
+  color: #f5bdc0;
+}
+
+.featured-work {
+  margin-top: 20px;
+  text-align: center;
+}
+
+a {
+  color: #e0353e;
+}
+
+a:hover {
+  color: #e0353e;
+  text-shadow: 3px 3px 3px #aaa;
+  text-decoration: none;
+}
+
+.featured-work-title {
+  font-size: 35px;
+  margin: 10px auto;
+}
+
+.featured-work-ex {
+  margin-bottom: 15px;
+}
+
+.work-thumbnail-one,
+.work-thumbnail-two,
+.work-thumbnail-three {
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .all-works-title {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .container {
+    width: 900px;
+    margin: auto;
+  }
+}
